@@ -1,0 +1,34 @@
+.calendar-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.tab{
+    border: 2px solid #787b7f;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 50px;
+
+}
+.tab h5 {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.act {
+    background-color: blue;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    min-width: 50px;
+}
+.act h5 {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.wrapper h3{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
