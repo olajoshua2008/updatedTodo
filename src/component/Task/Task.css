@@ -9,7 +9,7 @@
     box-shadow: 1px 1px 10px #000000;
 }
 .article-wrapper{
-    /* position: relative; */
+    position: relative;
     max-height: 47vh;
     overflow-y: auto;
     margin-top: 10px;
@@ -69,8 +69,8 @@
     border-radius: 999px;
     width: 60px;
     height: 60px;
-    bottom: -20px;
-    right: 1px;
+    bottom: 12px;
+    right: 10px;
     background-image: linear-gradient(to bottom, #d81e5b, #8a4efc);
     align-items: center;
     cursor: pointer;
@@ -78,7 +78,7 @@
 }
 @media only screen and (min-width: 700px) {
     .adding{
-        position: absolute;
+        position: fixed;
     }
   }
 
