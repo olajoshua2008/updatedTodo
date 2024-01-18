@@ -98,6 +98,14 @@
     align-items: center;
     flex-direction: column;
 }
+.popup textarea{
+    padding: 10px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* dark 131a26
     light eee
     lightalt 61759b
@@ -133,6 +141,7 @@
     color: #131A26;
     font-weight: 500;
     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .content {
     display: flex;
