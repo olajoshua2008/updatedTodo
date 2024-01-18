@@ -144,8 +144,8 @@ const Task = () => {
               value={title} id="" cols="30" rows="1">  
             </textarea>
              <div className="time">
-             <input type="time" required onChange={(e) =>{setFrom(e.target.value)}} className='from' value={from} />
-             <input type="time" required onChange={(e) =>{setTimeTO(e.target.value)}} value={timeTO} className='timeto'/>
+             from:<input type="time" required onChange={(e) =>{setFrom(e.target.value)}} className='from' value={from} />
+             to:<input type="time" required onChange={(e) =>{setTimeTO(e.target.value)}} value={timeTO} className='timeto'/>
              </div>
           </div>
           <div className="btn">
