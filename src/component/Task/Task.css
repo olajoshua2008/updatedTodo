@@ -25,9 +25,7 @@
     display: none;
 }
 @media screen and (max-with: 900px) {
-    .adding{
 
-    }
 }
 .checked{
         width: 12px;
